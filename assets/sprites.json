@@ -1,0 +1,24 @@
+{
+  "frame_width": 68,
+  "frame_height": 68,
+  "frames": {
+    "idle_0": 0,
+    "idle_1": 1,
+    "blink": 2,
+    "walk_0": 3,
+    "walk_1": 4,
+    "walk_2": 5,
+    "walk_3": 6,
+    "sit_0": 7,
+    "sit_1": 8,
+    "vibe_0": 9,
+    "vibe_1": 10,
+    "code_0": 11,
+    "code_1": 12,
+    "sleep_0": 13,
+    "sleep_1": 14,
+    "dragged": 15,
+    "happy": 16,
+    "peek": 17
+  }
+}
