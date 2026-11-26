@@ -1,5 +1,9 @@
 <div align="center">
 
+<img src="assets/banner.png" alt="Futaba Desktop Pet Banner" width="100%"/>
+
+<br/><br/>
+
 # Futaba (`desktop-pet`)
 
 **Native Hyprland / Wayland Desktop Companion featuring Futaba Sakura (Oracle)**
@@ -100,9 +104,11 @@ flowchart TD
 ```text
 desktop-pet/
 ├── assets/
+│   ├── banner.png           # GitHub README hero banner
 │   ├── futaba.json          # Frame index map (41 frames, 68x68)
 │   └── futaba.png           # Embedded pixel-art sprite sheet (2788x68)
 ├── scripts/
+│   ├── build_banner.py              # Generates assets/banner.png from live Futaba sprites
 │   ├── build_futaba_run.py          # Packs/polishes Futaba frames & easter-egg loops
 │   └── process_generated_sheet.py   # Chroma-key, despill & frame alignment helpers
 ├── src/
